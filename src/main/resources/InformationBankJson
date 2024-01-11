@@ -1,0 +1,47 @@
+//JSON for create InformationBank
+{
+    "name": "CityBank",
+    "codeSwift": "AA123BC",
+    "idFiscal": "1234567890",
+    "contact": {
+        "phoneNumber": "018000110123",
+        "emailAddress": "serviciosbancarios@citybank.com.co"
+    },
+    "branch": {
+        "nation": "Colombia",
+        "state": "Tolima",
+        "city": "Ibague",
+        "street": "Calle 15 #3-61 Surcursal No. 1",
+        "postalCode": "720001"
+    }
+}
+//JSON for create InformationPeople our Member
+{
+    "person": {
+        "identification": 1001001000,
+        "firstName": "Diego Esteban",
+        "lastName": "Vera Enciso",
+        "dateOfBirth": "1994-03-01",
+        "gender": "Masculino",
+        "address": {
+            "nationality": "Colombiano",
+            "state": "Tolima",
+            "city": "Ibague",
+            "street": "Cra 3 Sur #32-61 Barrio Brisas",
+            "postalCode": "730006"
+        },
+        "contact": {
+            "phoneNumber": "+57 3103302209",
+            "emailAddress": "estebanvera3741@gmail.com"
+        },
+        "employment": {
+            "companyName": "Globant",
+            "position": "Developer",
+            "monthlyIncome": 1180000.00
+        },
+        "creditHistory": {
+            "creditScore": 98.8,
+            "history": "Bueno"
+        }
+    }
+}
